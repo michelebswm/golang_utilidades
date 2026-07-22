@@ -33,7 +33,7 @@ func main() {
 	fmt.Printf("Y tipo: %T, tamanho len: %d\n", y, len(y))
 
 	fmt.Println("-------------------")
-	for i := 1; i<=200;i++{
+	for i := 1; i <= 200; i++ {
 		y = append(y, i)
 		fmt.Println(len(y))
 	}
